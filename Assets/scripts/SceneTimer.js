@@ -1,4 +1,6 @@
 function Start() {
-    yield WaitForSeconds(15);
-    Application.LoadLevel(0);
+    yield WaitForSeconds(20);
+    Application.LoadLevel(Random.Range(1, 5));
+	
+	
 }
