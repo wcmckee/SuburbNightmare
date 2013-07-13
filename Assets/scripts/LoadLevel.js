@@ -3,11 +3,11 @@ var HighCam : Camera;
 
 function OnGUI () {
 
-     	if (GUI.Button (Rect (300,200,48,24), "LowCam")) {
+     	if (GUI.Button (Rect (400,48,48,24), "LowCam")) {
           LowCam.enabled = true;
           HighCam.enabled = false;
      }
-		if (GUI.Button (Rect (300,88,48,24), "Begin")) {
+		if (GUI.Button (Rect (400,24,48,24), "HighCam")) {
           LowCam.enabled = false;
           HighCam.enabled = true;
      }
