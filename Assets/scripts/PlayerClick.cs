@@ -44,7 +44,7 @@ public class PlayerClick : MonoBehaviour {
 			moveSpeed = 0;
 		}
 		else if(destinationDistance > .5f){			// To Reset Speed to default
-			moveSpeed = 3;
+			moveSpeed = 1;
 		}
  
  
